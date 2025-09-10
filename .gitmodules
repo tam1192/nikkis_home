@@ -1,3 +1,6 @@
 [submodule ".gitmodules.d/vim-airline/vim-airline"]
 	path = .gitmodules.d/vim-airline/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule ".gitmodules.d/preservim/nerdtree"]
+	path = .gitmodules.d/preservim/nerdtree
+	url = https://github.com/preservim/nerdtree.git

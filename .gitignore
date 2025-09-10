@@ -15,14 +15,19 @@
 !.vimrc
 !.share_vimrc.vim
 !.vim
+!.vim/nerdtree.vim
 !.vim/pack
 !.vim/pack/vim-airline
 !.vim/pack/vim-airline/start
 !.vim/pack/vim-airline/start/vim-airline
+!.vim/pack/preservim
+!.vim/pack/preservim/start
+!.vim/pack/preservim/start/nerdtree
 
 # submodule関係
 !.gitmodules
 !.gitmodules.d
 !.gitmodules.d/vim-airline
 !.gitmodules.d/vim-airline/vim-airline
-
+!.gitmodules.d/preservim
+!.gitmodules.d/preservim/nerdtree
