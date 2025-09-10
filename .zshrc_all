@@ -1,0 +1,10 @@
+# 全ての環境で揃えたい環境変数などはこちらに記入
+
+export MANPAGER=cat
+export EDITOR=/usr/bin/vi
+export GITDIR=~/git
+alias date='LANG=C /bin/date'
+hash -d g=~/git
+alias vrc="$EDITOR ~/.zshrc"
+alias src="source ~/.zshrc"
+ZSH_THEME="frisk"

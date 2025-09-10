@@ -2,5 +2,6 @@
 
 !.gitignore
 !.zshrc
+!.zshrc_all
 !.vimrc
 !Readme.md
