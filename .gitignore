@@ -14,3 +14,15 @@
 # vim関係
 !.vimrc
 !.share_vimrc.vim
+!.vim
+!.vim/pack
+!.vim/pack/vim-airline
+!.vim/pack/vim-airline/start
+!.vim/pack/vim-airline/start/vim-airline
+
+# submodule関係
+!.gitmodules
+!.gitmodules.d
+!.gitmodules.d/vim-airline
+!.gitmodules.d/vim-airline/vim-airline
+
