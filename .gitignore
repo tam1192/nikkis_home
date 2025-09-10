@@ -1,6 +1,7 @@
 *
 
 !.gitignore
+!.gitignore_global
 !.zshrc
 !.zshrc_all
 !.vimrc
