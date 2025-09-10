@@ -1,0 +1,23 @@
+" my vim rc
+" あんまりちゃんと設定してないです。
+
+" 検索系
+set ignorecase
+set smartcase
+set wrapscan
+set incsearch
+set hlsearch
+set shortmess-=S
+
+" 表示系
+set title
+set number
+set laststatus=2
+set showmatch
+
+" マウス操作を許す
+set mouse=a
+
+
+" 参考
+" https://qiita.com/iwaseasahi/items/0b2da68269397906c14c

@@ -4,5 +4,13 @@
 !.gitignore_global
 !.zshrc
 !.zshrc_all
-!.vimrc
 !Readme.md
+
+# 特殊ディレクトリ
+!.config
+!.config/nvim
+!.config/nvim/init.vim
+
+# vim関係
+!.vimrc
+!.share_vimrc.vim
