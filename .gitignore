@@ -18,6 +18,7 @@
 !.vim
 !.vim/nerdtree.vim
 !.vim/vim-gitgutter.vim
+!.vim/tcomment_vim.vim
 
 !.vim/pack
 !.vim/pack/vim-airline
@@ -29,6 +30,9 @@
 !.vim/pack/airblade
 !.vim/pack/airblade/start
 !.vim/pack/airblade/start/vim-gitgutter
+!.vim/pack/tomtom
+!.vim/pack/tomtom/start
+!.vim/pack/tomtom/start/tcomment_vim
 
 # submodule関係
 !.gitmodules
@@ -39,3 +43,5 @@
 !.gitmodules.d/preservim/nerdtree
 !.gitmodules.d/airblade
 !.gitmodules.d/airblade/vim-gitgutter
+!.gitmodules.d/tomtom
+!.gitmodules.d/tomtom/tcomment_vim

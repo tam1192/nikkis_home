@@ -7,3 +7,6 @@
 [submodule ".gitmodules.d/airblade/vim-gitgutter"]
 	path = .gitmodules.d/airblade/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".gitmodules.d/tomtom/tcomment_vim"]
+	path = .gitmodules.d/tomtom/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim

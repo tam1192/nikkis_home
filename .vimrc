@@ -8,3 +8,7 @@ source ~/.vim/nerdtree.vim
 
 " gitgutter設定
 source ~/.vim/vim-gitgutter.vim
+
+" tcomment_vim設定
+source ~/.vim/tcomment_vim.vim
+
