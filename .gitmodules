@@ -4,3 +4,6 @@
 [submodule ".gitmodules.d/preservim/nerdtree"]
 	path = .gitmodules.d/preservim/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule ".gitmodules.d/airblade/vim-gitgutter"]
+	path = .gitmodules.d/airblade/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git

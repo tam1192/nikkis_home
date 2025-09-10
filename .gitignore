@@ -14,8 +14,11 @@
 # vim関係
 !.vimrc
 !.share_vimrc.vim
+
 !.vim
 !.vim/nerdtree.vim
+!.vim/vim-gitgutter.vim
+
 !.vim/pack
 !.vim/pack/vim-airline
 !.vim/pack/vim-airline/start
@@ -23,6 +26,9 @@
 !.vim/pack/preservim
 !.vim/pack/preservim/start
 !.vim/pack/preservim/start/nerdtree
+!.vim/pack/airblade
+!.vim/pack/airblade/start
+!.vim/pack/airblade/start/vim-gitgutter
 
 # submodule関係
 !.gitmodules
@@ -31,3 +37,5 @@
 !.gitmodules.d/vim-airline/vim-airline
 !.gitmodules.d/preservim
 !.gitmodules.d/preservim/nerdtree
+!.gitmodules.d/airblade
+!.gitmodules.d/airblade/vim-gitgutter
