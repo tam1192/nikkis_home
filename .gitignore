@@ -12,6 +12,7 @@
 
 # zsh 関連
 !.zshrc
+!.omzrc
 !.oh-my-zsh
 !.zsh_custom
 !.zsh_custom/.gitignore
