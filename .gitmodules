@@ -1,3 +1,6 @@
 [submodule ".gitmodules.d/ohmyzsh/ohmyzsh"]
 	path = .gitmodules.d/ohmyzsh/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule ".gitmodules.d/zsh-users/zsh-autosuggestions"]
+	path = .gitmodules.d/zsh-users/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
