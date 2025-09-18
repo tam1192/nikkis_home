@@ -14,6 +14,7 @@
 !.zshrc
 !.zsh_alias.d
 !.zsh_alias.d/.gitignore
+!.omzrc
 !.oh-my-zsh
 !.zsh_custom
 !.zsh_custom/.gitignore

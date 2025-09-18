@@ -9,3 +9,4 @@ compinit
 cd "$HOME/.zsh_alias.d"
   source "union.alias.sh"
 cd -
+source "$HOME/.omzrc"
