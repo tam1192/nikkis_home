@@ -10,3 +10,8 @@ zstyle :compinstall filename '/home/sub/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+# alias読み込み
+cd "$HOME/.zsh_alias.d"
+  source "union.alias.sh"
+cd -

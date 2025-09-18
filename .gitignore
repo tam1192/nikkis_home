@@ -12,3 +12,5 @@
 
 # zsh 関連
 !.zshrc
+!.zsh_alias.d
+!.zsh_alias.d/.gitignore
