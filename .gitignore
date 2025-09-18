@@ -14,3 +14,6 @@
 !.zshrc
 !.union.zshrc
 
+!.oh-my-zsh
+!.zsh_custom
+!.zsh_custom/.gitignore
