@@ -9,3 +9,6 @@
 !.gitmodules.d
 !.gitmodules.d/.gitignore
 !.gitmodules
+
+!.vimrc
+!.vim
