@@ -6,3 +6,4 @@
 
 # union.*というファイルも両方残すようにする
 union.* merge=union
+.union.* merge=union
