@@ -1,0 +1,8 @@
+# curl & wget
+alias cg = 'curl -O'
+alias wg = 'wget'
+
+# ls
+alias jjj = 'ls'
+alias jjja = 'ls -a'
+
