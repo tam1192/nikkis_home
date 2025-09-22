@@ -1,0 +1,56 @@
+# cd系
+alias -='cd -'
+alias ...=../..
+alias ....=../../..
+alias .....=../../../..
+alias ......=../../../../..
+alias .0=.
+alias .1=..
+alias .2=../..
+alias .3=../../..
+alias .4=../../../..
+alias .5=../../../../..
+alias 1='cd -1'
+alias 2='cd -2'
+alias 3='cd -3'
+alias 4='cd -4'
+alias 5='cd -5'
+alias 6='cd -6'
+alias 7='cd -7'
+alias 8='cd -8'
+alias 9='cd -9'
+ 
+# ls系
+alias ls='ls -G'
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -lh'
+alias lsa='ls -lah'
+
+# ファイル作成
+alias md='mkdir -p'
+alias rd='rmdir'
+alias t='touch'
+ 
+# mkdir & touch
+function mdt() {
+  for f in $@; do
+  mkdir -p $(dirname $f);
+  touch $f;            
+  done
+}
+
+# その他
+alias c='cat'
+alias e='echo'
+alias q='exit'
+
+# 3語
+alias clr='clear' #ターミナルバッファクリア
+
+
+
+# ネットワーク系
+alias ns='nslookup'
+alias p='ping -c 4'
+alias pp='ping'
