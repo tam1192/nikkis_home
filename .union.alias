@@ -1,1 +1,3 @@
 source .alias.d/alias
+source .alias.d/git
+
