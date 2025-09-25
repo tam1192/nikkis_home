@@ -1,2 +1,2 @@
 # 編集禁止
-source .union.zshrc
+source $HOME/.union.zshrc
