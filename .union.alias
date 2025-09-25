@@ -2,3 +2,4 @@ source .alias.d/alias
 source .alias.d/zsh_basic
 source .alias.d/basic
 source .alias.d/container
+source .alias.d/docker

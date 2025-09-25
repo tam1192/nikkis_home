@@ -1,0 +1,42 @@
+# container
+alias dcc="docker container"
+
+# docker run
+alias dca="dcc attach"
+alias dce="dcc exec -it"
+alias dck="dcc kill"
+alias dcl="dcc ls"
+alias dcrm="dcc rm"
+alias dcr="dcc run -it"
+alias dcrr="dcc run -it --rm"
+alias dcs="dcc stop"
+
+# よく使うディストリビューション
+# alpine
+alias dcra="dcc run -it alpine:latest"
+alias dcrra="dcc run -it --rm alpine:latest"
+
+# ubuntu
+alias dcru="dcc run -it ubuntu:latest"
+alias dcrru="dcc run -it --rm ubuntu:latest"
+
+# images
+alias di="docker image"
+alias dil="di ls"
+alias dip="di prune"
+alias dirm="di rm"
+alias dit="di tag"
+
+# volumes
+alias dv="docker volume"
+alias dvc="dv create"
+alias dvl="dv ls"
+alias dvp="dv prune"
+alias dvrm="dv rm"
+
+# network
+alias dn="docker network"
+alias dnc="dn create"
+alias dnl="dn ls"
+alias dnp="dn prune"
+alias dnrm="dn rm"
