@@ -13,4 +13,7 @@
 # zsh 関連
 !.zshrc
 !.union.zshrc
+!.alias.d
+!.alias.d/.gitignore
+!.union.alias
 
