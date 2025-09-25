@@ -28,6 +28,7 @@ alias lsa='ls -lah'
 
 # ファイル作成
 alias md='mkdir -p'
+alias mt='mktemp -d'
 alias rd='rmdir'
 alias t='touch'
  
@@ -38,6 +39,12 @@ function mdt() {
   touch $f;            
   done
 }
+
+# temp workdir
+# 一時的に試すためのディレクトリ
+alias mw='WORKDIR=$(mktemp -d)'
+alias cw='cd $WORKDIR'
+alias wd='$WORKDIR'
 
 # その他
 alias c='cat'
