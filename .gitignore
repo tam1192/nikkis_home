@@ -18,6 +18,7 @@
 !.union.alias
 
 !.omzrc
+!.union.omz_plugins
 !.oh-my-zsh
 !.zsh_custom
 !.zsh_custom/.gitignore
