@@ -5,3 +5,4 @@ source .alias.d/container
 source .alias.d/docker
 source .alias.d/git
 
+source .alias.d/vim
