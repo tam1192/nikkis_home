@@ -12,3 +12,5 @@
 
 # zsh 関連
 !.zshrc
+!.union.zshrc
+
