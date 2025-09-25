@@ -1,0 +1,46 @@
+# container
+alias ct="container"
+
+# docker run
+alias cta="ct attach"
+alias cte="ct exec -it"
+alias ctk="ct kill"
+alias ctl="ct ls -a"
+alias ctrm="ct rm"
+alias ctr="ct run -it"
+alias ctrr="ct run -it --rm"
+alias cts="ct stop"
+
+# よく使うディストリビューション
+# alpine
+alias ctra="ct run -it alpine:latest"
+alias ctrra="ct run -it --rm alpine:latest"
+
+# ubuntu
+alias ctru="ct run -it ubuntu:latest"
+alias ctrru="ct run -it --rm ubuntu:latest"
+
+# images
+alias ci="container image"
+alias cil="ci ls"
+alias cip="ci prune"
+alias cirm="ci rm"
+alias cit="ci tag"
+
+# volumes
+alias cv="container volume"
+alias cvc="cv create"
+alias cvl="cv ls"
+alias cvp="cv prune"
+alias cvrm="cv rm"
+
+# network
+alias cn="container network"
+alias cnc="cn create"
+alias cnl="cn ls"
+alias cnp="cn prune"
+alias cnrm="cn rm"
+
+# system
+alias ctst="container system start"
+alias ctsp="container system stop"
