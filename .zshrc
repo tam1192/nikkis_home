@@ -5,6 +5,7 @@
 
 export MANPAGER=cat
 export EDITOR=/usr/bin/vi
+export OSHICHAR="聖園ミカ"
 export GITDIR=~/git
 hash -d g=~/git
  
