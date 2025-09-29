@@ -23,3 +23,13 @@ add-zsh-hook precmd _kube-current-context
 
 # 編集禁止
 source $HOME/.union.zshrc
+
+# 不要な表示なので消す
+function bzr_prompt_info() {}
+
+function command_not_found_handler() {
+  echo "またタイポしたの〜　ざぁこざぁこ"
+  echo "もしかしてぇ、"$(echo ${(k)commands} | awk 'BEGIN { FS=","; RS=" " } $0~/^'"$0"'/{if (length(out) == 0) {out=$0} else if (length($0) < length(out)) {out=$0} } END {print out}')"って入力しようとしたの〜？"
+  echo "また会いたかったら、タイポしてね〜"
+}
+
