@@ -13,6 +13,7 @@ export DARWIN_USER=$(whoami)
 export DARWIN_HOST=$(hostname -s)
 eval $(thefuck --alias) 
 eval "$(direnv hook zsh)"
+export SSH_AUTH_SOCK=/Users/nikki/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
 function _kube-current-context () {
   KUBE_PS1_CONTEXT=$(kubectl config current-context)
