@@ -6,3 +6,5 @@ source ~/.alias.d/docker
 source ~/.alias.d/git
 
 source ~/.alias.d/vim
+source .alias.d/alias
+source ~/.alias.d/idea
